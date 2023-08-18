@@ -16,20 +16,20 @@ class MyApp extends StatelessWidget {
             backgroundColor: Colors.pink,
             title: const Text('My first app!'),
           ),
-          // body: const Center(
-          //   child: SizedBox(
-          //     child: Text('Hello, Diane!'),
-          //     height: 50,
-          //     width: 50,
-          //   ),
-          body: Row(
-            mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-            crossAxisAlignment: CrossAxisAlignment.end,
-            children: const [
-              Icon(Icons.backpack),
-              Icon(Icons.leaderboard),
-              Icon(Icons.person)
-            ],
+          body: const Center(
+            child: SizedBox(
+              child: Text('Hello, Diane!'),
+              height: 50,
+              width: 50,
+            ),
+            // body: Row(
+            //   mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+            //   crossAxisAlignment: CrossAxisAlignment.end,
+            //   children: const [
+            //     Icon(Icons.backpack),
+            //     Icon(Icons.leaderboard),
+            //     Icon(Icons.person)
+            //   ],
           )),
     );
   }
